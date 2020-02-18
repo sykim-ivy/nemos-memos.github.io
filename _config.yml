@@ -1,7 +1,7 @@
 # Site settings
 title: Emerald | A simple Jekyll blog
 description: "A minimal blog template, build with Jekyll."
-url: "https://nemos-memos.github.io/"
+url: "https://sykim-ivy.github.io/nemos-memos.github.io/"
 author:
   name: "sykim.ivy"
   email: "sykim.ivy@gmail.com"
