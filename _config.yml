@@ -1,5 +1,6 @@
 # Site settings
-title: nemo's dev memos
+title: nemo's dev memos |
+headertitle: nemo's dev memos
 description: "nemo's dev memos"
 url: "https://sykim-ivy.github.io"
 author:
