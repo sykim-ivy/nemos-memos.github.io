@@ -6,6 +6,7 @@ url: "https://sykim-ivy.github.io"
 author:
   name: "sykim.ivy"
   email: "sykim.ivy@gmail.com"
+  github: "https://github.com/sykim-ivy"
 
 # Build settings
 baseurl: ""
