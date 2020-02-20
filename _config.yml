@@ -8,7 +8,7 @@ author:
   email: "sykim.ivy@gmail.com"
 
 # Build settings
-baseurl: ""
+baseurl: "/home"
 markdown: kramdown
 source: .
 destination: ./_site
