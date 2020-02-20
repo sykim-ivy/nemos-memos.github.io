@@ -168,9 +168,9 @@ html, body {
 .post+.post:before {
     display: block;
     content: '';
-    width: 5rem;
+    width: auto;
     height: 1px;
-    margin: 23px auto;
+    margin: 28px auto 13px auto;
     background-color: lighten($text-color, 70%);
   }
 
