@@ -49,4 +49,6 @@ end
 * Context 개념 : <http://blog.naver.com/huewu/110085457720>
 * Context 개념 : <https://zxcv5500.tistory.com/258>
 * Context 개념 : <http://sunphiz.me/wp/archives/tag/applicationcontext>
+* Context 개념 : <https://www.charlezz.com/?p=1080>
 * Context & ContextWrapper: <https://black-jin0427.tistory.com/220>
+* Difference between getContext() , getApplicationContext() , getBaseContext() and “this” : <https://stackoverflow.com/questions/10641144/difference-between-getcontext-getapplicationcontext-getbasecontext-and>
