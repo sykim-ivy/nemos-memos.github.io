@@ -54,4 +54,4 @@ end
 * Context & 상속구조 : <http://ericyang505.github.io/android/Context.html>
 * Context & ContextWrapper: <https://black-jin0427.tistory.com/220>
 * Difference between getContext() , getApplicationContext() , getBaseContext() and “this” : <https://stackoverflow.com/questions/10641144/difference-between-getcontext-getapplicationcontext-getbasecontext-and>
-* getApplication(), getApplicationContext(), getBaseContext(), getContext(), Class.this : <difference and when to use getApplication(), getApplicationContext(), getBaseContext() and someClass.this> <http://dev.youngkyu.kr/36>
+* getApplication(), getApplicationContext(), getBaseContext(), getContext(), Class.this : <https://stackoverflow.com/questions/10347184/difference-and-when-to-use-getapplication-getapplicationcontext-getbasecon> <http://dev.youngkyu.kr/36>
