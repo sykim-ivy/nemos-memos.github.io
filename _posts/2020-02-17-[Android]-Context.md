@@ -1,9 +1,10 @@
 ---
 layout: post
-title: [Android] Context
+title: "[Android] Context"
 category: Android
 tags: [Android]
 ---
+
 # Context
 
 To insert highlight code inside of a post, it's enough to use some specific tags, 
