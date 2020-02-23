@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Context
+title: [Android] Context
 category: Android
 tags: [Android]
 ---
@@ -46,4 +46,5 @@ end
 
 ## 참조
 * <http://blog.naver.com/huewu/110085457720>
+* <http://sunphiz.me/wp/archives/tag/applicationcontext>
 
