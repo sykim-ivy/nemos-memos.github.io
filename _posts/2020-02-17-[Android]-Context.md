@@ -46,6 +46,7 @@ end
 
 
 ## 참조
-* <http://blog.naver.com/huewu/110085457720>
-* <http://sunphiz.me/wp/archives/tag/applicationcontext>
-
+* Context 개념 : <http://blog.naver.com/huewu/110085457720>
+* Context 개념 : <https://zxcv5500.tistory.com/258>
+* Context 개념 : <http://sunphiz.me/wp/archives/tag/applicationcontext>
+* Context & ContextWrapper: <https://black-jin0427.tistory.com/220>
