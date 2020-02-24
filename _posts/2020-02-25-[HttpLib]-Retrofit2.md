@@ -47,7 +47,7 @@ end
 
 ## 참조
 * Retrofit 공식사이트 : <https://square.github.io/retrofit/>
-* Retrofit Github : <https://github.com/square/retrofit>
+* Retrofit Github(최신 버전 확인) : <https://github.com/square/retrofit>
 * 구조잡기 : <https://jongmin92.github.io/2018/01/29/Programming/android*retrofit2*okhttp3/>
 * 구조잡기 & gson dto 개념 : <https://ppizil.tistory.com/27>
 * 구조잡기2 : <https://galid1.tistory.com/617>
