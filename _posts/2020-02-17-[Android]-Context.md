@@ -51,8 +51,8 @@ end
 * Context종류 & Components별 Context 접근 : <http://sunphiz.me/wp/archives/tag/applicationcontext>
 * Context 클래스 & Context종류 & Components별 Context 접근 : <https://www.charlezz.com/?p=1080>
 * Context & ContextWrapper & ContextImpl & Context 종류 및 좋은 예제 : <https://black-jin0427.tistory.com/220>
-* "[StackOverflow]" Difference between getContext() , getApplicationContext() , getBaseContext() and “this” : <https://stackoverflow.com/questions/10641144/difference-between-getcontext-getapplicationcontext-getbasecontext-and>
-* "[StackOverflow]" getApplication(), getApplicationContext(), getBaseContext(), getContext(), Class.this : 
+* [StackOverflow] Difference between getContext() , getApplicationContext() , getBaseContext() and “this” : <https://stackoverflow.com/questions/10641144/difference-between-getcontext-getapplicationcontext-getbasecontext-and>
+* [StackOverflow] getApplication(), getApplicationContext(), getBaseContext(), getContext(), Class.this : 
 <https://stackoverflow.com/questions/10347184/difference-and-when-to-use-getapplication-getapplicationcontext-getbasecon> 
 * [JUMP][잘 설명해놓았으나 아직 해석중] Context & 상속구조 : <https://wundermanthompsonmobile.com/2013/06/context/>
 * [JUMP][아직 해석중] Context & 상속구조 : <http://ericyang505.github.io/android/Context.html>
