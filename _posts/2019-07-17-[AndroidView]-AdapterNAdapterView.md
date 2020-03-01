@@ -18,12 +18,8 @@ tags: [Android]
  : '<span class="color_pointEmeraldGreen">View</span>'와 '(그 View에 올릴) Data'를 연결하는 일종의 Bridge (<<중간객체역할)
  - 데이터 받고 관리 <span class="color_blurredGray"> >> set Data</span>  
  - **AdapterView**가 출력할 수 있는 형태로 데이터를 제공 (**※ 주의 : View를 화면에 출력 하지 않음!** )  <span class="color_blurredGray"> >> Data를 View 출력 형태로 가공</span>  
-  
 ## Adapter Structure in Android
  - [여기](https://m.blog.naver.com/PostView.nhn?blogId=gi_balja&logNo=221162720020&proxyReferer=https%3A%2F%2Fwww.google.com%2F&view=img_2) 엄청 그림으로 잘 그려놓으셨습니다.
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -117,7 +113,9 @@ public View getView(int position, View convertView, ViewGroup parent) {
 <br/>
 <br/>
 <br/>
-<br/>
+  
+-------------------
+-------------------
 ## 참조
 * 개념 파악 & 예제 : <https://www.crocus.co.kr/1581>
 * 상위 구조 파악 : <https://m.blog.naver.com/PostView.nhn?blogId=gi_balja&logNo=221162720020&proxyReferer=https%3A%2F%2Fwww.google.com%2F>
