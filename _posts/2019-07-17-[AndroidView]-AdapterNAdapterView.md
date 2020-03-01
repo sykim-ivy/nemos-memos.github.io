@@ -23,6 +23,9 @@ tags: [Android]
 
   
   
+  
+  
+  
 # AdapterView
 -------------------
  : <span class="color_pointEmeraldGreen">하나의 Object(객체)로서, 보여지는 View</span>들을 모두 보여주는 View  
