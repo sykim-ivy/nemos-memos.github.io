@@ -5,13 +5,15 @@
 /**
  Dot line
 */
-.lineDot {
+.line_dot {
     border: none;
-    border-top: 3px dotted blue;
+    border-top: 1.4px dotted lightgray;
     color: #fff;
     background-color: #fff;
+    float: left;
     height: 1px;
-    width: 50%;
+    width: 80%;
+
 }
 
 /**
