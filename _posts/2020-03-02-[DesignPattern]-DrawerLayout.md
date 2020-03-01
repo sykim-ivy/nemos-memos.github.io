@@ -11,5 +11,6 @@ tags: [Android]
 
 
 ## 참조
-* 쉬운 예시 및 개념 파악 : <https://niceman.tistory.com/141>
-* 비유 & 어떤 때 사용되는지 설명 : <https://jusungpark.tistory.com/22>
+* 뷰 개념 : <https://recipes4dev.tistory.com/139>
+* 예제 : <https://g-y-e-o-m.tistory.com/128>
+
