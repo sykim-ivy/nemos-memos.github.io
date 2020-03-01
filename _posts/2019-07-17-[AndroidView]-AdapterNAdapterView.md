@@ -34,20 +34,20 @@ ListView, GridView, Spinner 등이 AdapterView를 상속받고 있다
  - **Adapter**가 출력할 수 있는 형태로 가공한 데이터를 받아 화면에 출력  
   
 ## AdapterView 동작원리 
-[좋은 그림 및 설명 참조] : (https://okky.kr/article/396324)  
+[좋은 그림 및 설명 참조](https://okky.kr/article/396324)  
 
-1) **Adapter**객체 생성 후 **AdapterView**에 **setAdapter()**
+1) **Adapter**객체 생성 후 **AdapterView**에 **setAdapter()**  
 2) **AdapterView**에서 **Adapter**의 Observer객체를 등록 : **AdapterView$AdapterDataSetObserver**  
-3)  **AdapterDataObserver**에서 객체 숫자만큼 onChanged() 호출
+3)  **AdapterDataObserver**에서 객체 숫자만큼 onChanged() 호출  
 4) onChanged() 단계에서 각 view들이 자기자신을 requestLayout() 호출  
-5) **AdapterView**는 자신의 자식이 붙어있는지를 확인<span class="color_blurredGray">(안드로이드 View가 그려지는 라이프사이클에 따라 ononMeasure() > 4번 전달받음 > obtainView())</span> 후, 아이템의 수 만큼 getview() 호출
-+ 6) 이후 데이터에 변경이 있어 notifydatasetChanged() 등의 함수 호출시 3번 진행 
+5) **AdapterView**는 자신의 자식이 붙어있는지를 확인<span class="color_blurredGray">(안드로이드 View가 그려지는 라이프사이클에 따라 ononMeasure() > 4번 전달받음 > obtainView())</span> 후, 아이템의 수 만큼 getview() 호출  
++ 6) 이후 데이터에 변경이 있어 notifydatasetChanged() 등의 함수 호출시 3번 진행  
   
 <span class="color_pointRed">요약 : **AdapterView**는 화면 드로잉에 필요한 정보를 **Adapter**에게 요청하게 되고, **Adapter**는 자신이 가지고 있는 데이터를 가지고 요청받은 정보를 **AdapterView**에 리턴</span>  
   
   
 ## Adapter의 getView() 메소드
-### 'abstract fun getView(int position, View convertView, ViewGroup parent): View'
+##### abstract fun getView(int position, View convertView, ViewGroup parent): View
 : 화면이 그려져야하는 시점에 호출되어 데이터들이 각 <span class="color_pointEmeraldGreen">View</span>들이 어떻게 보일지 뷰 그려서 반환  
   
 #### getView() 파라미터 convertView는?
@@ -59,7 +59,7 @@ ListView, GridView, Spinner 등이 AdapterView를 상속받고 있다
 #### getView() 최적화 #1 : View Holder 패턴
 - 뷰 전개(inflating)은 매우 비싼 연산이므로 convertView안에 <span class="color_pointEmeraldGreen">View</span>에 맞춰 만든 Viewholder 클래스를 태그로 저장 및 재활용하는 방법  
 - convertView가 null이면 Holder 객체를 생성하고 생성한 Holder 객체에 inflating 한 뷰의 참조값을 저장  
-- convertView가 null이 아니면 뷰를 생성할때 태그에 저장했던 Holder 객체가 존재하므로 이를 가져와 속성값 등만 변경 이 Holder 객체는 자신을 inflating한 참조값 <span class="color_blurredGray">(다시 전개할 필요가 없다.)</  
+- convertView가 null이 아니면 뷰를 생성할때 태그에 저장했던 Holder 객체가 존재하므로 이를 가져와 속성값 등만 변경 이 Holder 객체는 자신을 inflating한 참조값 <span class="color_blurredGray">(다시 전개할 필요가 없다.)    
 {% highlight java linenos %}
 // 전개된 뷰의 참조값을 저장할 객체
 private class ViewHolder {
@@ -104,7 +104,7 @@ public View getView(int position, View convertView, ViewGroup parent) {
 {% endhighlight %}
 
 #### getView() 최적화 #2 : 지연 로딩(Lazy Loading)
-- 항목중에 네트워크로부터 받아와야 하는 파일이 있을 경우, getView에서 진행하게 되면 getView가 리턴되지 않아서 어댑터뷰의 화면이 그려지지 않아 화면이 멈추므로 비동기(ex) AsyncTask 등)으로 처리 -> 비동기 처리시 뷰를 바인딩하여, 작업이 완료된 후 자동적으로 뷰의 속성을 변경되도록 구현한다.
+- 항목중에 네트워크로부터 받아와야 하는 파일이 있을 경우,   getView에서 진행하게 되면 getView가 리턴되지 않아서 어댑터뷰의 화면이 그려지지 않아 화면이 멈추므로   비동기(ex) AsyncTask 등)으로 처리 -> 비동기 처리시 뷰를 바인딩하여, 작업이 완료된 후 자동적으로 뷰의 속성을 변경되도록 구현한다.
   
   
 ## 참조
