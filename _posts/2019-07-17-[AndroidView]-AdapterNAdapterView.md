@@ -48,7 +48,7 @@ ListView, GridView, Spinner 등이 AdapterView를 상속받고 있다
   
   
 ## Adapter의 getView() 메소드
-<hr class="line_dot"/>
+<div class="line_dot"/>
 <div style="
     font-weight: 600;
     font-size: 19px;" class="border_light">
