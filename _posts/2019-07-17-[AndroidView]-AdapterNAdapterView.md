@@ -49,11 +49,8 @@ ListView, GridView, Spinner 등이 AdapterView를 상속받고 있다
   
 ## Adapter의 getView() 메소드
 <div style="
-    border: 1.1px solid #c6c7c7;
-    padding: 4px;
-    margin: 10px 0 10px 0;
     font-weight: 600;
-    font-size: 19px;">
+    font-size: 19px;" class="border_light">
     abstract fun getView(int position, View convertView, ViewGroup parent): View
 </div>
 : 화면이 그려져야하는 시점에 호출되어 데이터들이 각 <span class="color_pointEmeraldGreen">View</span>들이 어떻게 보일지 뷰 그려서 반환  
