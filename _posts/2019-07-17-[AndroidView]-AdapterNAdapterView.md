@@ -25,6 +25,9 @@ tags: [Android]
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+  
 # AdapterView
 -------------------
  : <span class="color_pointEmeraldGreen">하나의 Object(객체)로서, 보여지는 View</span>들을 모두 보여주는 View  
@@ -40,13 +43,13 @@ ListView, GridView, Spinner 등이 AdapterView를 상속받고 있다
 3) **AdapterDataObserver**에서 **아이템 숫자만큼 onChanged() 호출**  
 4) onChanged() 단계에서 각 아이템 view들이 자기자신을 requestLayout() 호출  
 5) **AdapterView는 자신의 자식이 붙어있는지를 확인**<span class="color_blurredGray">(안드로이드 View가 그려지는 라이프사이클에 따라 ononMeasure() -> 4번 전달받음 -> obtainView())</span> 후, **아이템의 수 만큼 getview() 호출**  
-+ 6) 이후 데이터에 변경이 있어 **notifydatasetChanged() 등의 함수 호출시 3번 진행**  
+6) 이후 데이터에 변경이 있어 **notifydatasetChanged() 등의 함수 호출시 3번 진행**  
   
 <span class="color_pointRed">※ 요약 :  **AdapterView**는 화면 드로잉에 필요한 정보를 **Adapter**에게 요청하게 되고,   **Adapter**는 자신이 가지고 있는 데이터를 가지고 요청받은 정보를 **AdapterView**에 리턴</span>  
   
   
 ## Adapter의 getView() 메소드
-<div style="style="
+<div style="
     border: 1.1px solid #c6c7c7;
     padding: 4px;
     margin: 10px 0 10px 0;
