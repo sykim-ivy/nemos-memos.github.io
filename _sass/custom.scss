@@ -3,6 +3,18 @@
 // -- Put custom style under this point -- //
 
 /**
+ Dot line
+*/
+hr .lineDot {
+    border: none;
+    border-top: 3px dotted blue;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 50%;
+}
+
+/**
  Font color
 */
 .color_mainBlue {
