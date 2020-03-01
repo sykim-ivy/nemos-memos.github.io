@@ -5,7 +5,16 @@ category: Android
 tags: [Android]
 ---
 
-# Context
+안드로이드에는 <span class="color_pointEmeraldGreen">동일한 뷰 구조</span>가 반복되는 경우가 있다. ex) ListView, GridView<br/>
+<span class="color_pointEmeraldGreen">하나의 Object(객체)로서, 보여지는 View</span>가 반복된다는 비유가 더 맞는 것 같다.<br/>
+이런 구조(?)들의 뷰와 데이터를 관리하는데 필요한 것이 Adapter와 AdapterView.<br/>
+<br/>
+
+# Adapter
+'<span class="color_pointEmeraldGreen">View</span>'와 '그 View에 올릴 Data'를 연결하는 일종의 Bridge다.<br/>
+즉, 데이터의 원본을 받아 관리하고, 어댑터뷰가 출력할 수 있는 형태로 데이터를 제공하는 중간 객체 역할을 한다.<br/>
+<br/>
+
 
 To insert highlight code inside of a post, it's enough to use some specific tags, 
 has directly described into the [Jekyll documentation](http://jekyllrb.com/docs/templates/#code-snippet-highlighting). 
