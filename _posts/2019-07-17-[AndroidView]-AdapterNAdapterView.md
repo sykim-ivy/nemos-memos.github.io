@@ -79,7 +79,8 @@ public View getView(int position, View convertView, ViewGroup parent) {
     ViewHolder holder;
 
  if(convertView == null) {
-     // convertView가 null이면 Holder 객체를 생성하고 생성한 Holder 객체에 inflating 한 뷰의 참조값을 저장
+     // convertView가 null이면 Holder 객체를 생성하고 
+     // 생성한 Holder 객체에 inflating 한 뷰의 참조값을 저장
         holder = new ViewHolder();
 
         convertView = inflater.inflate(R.layout.layout_list_item, parent, false);
