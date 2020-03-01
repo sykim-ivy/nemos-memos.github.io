@@ -33,6 +33,7 @@ ListView, GridView, Spinner 등이 AdapterView를 상속받고 있다
  - **Adapter**가 출력할 수 있는 형태로 가공한 데이터를 받아 화면에 출력  
   
 ## AdapterView 동작원리 
+<hr class="line_dot"/>
   
  - [좋은 그림 및 설명 참조](https://okky.kr/article/396324)  
 
@@ -46,8 +47,8 @@ ListView, GridView, Spinner 등이 AdapterView를 상속받고 있다
 <span class="color_pointRed">※ 요약 :  **AdapterView**는 화면 드로잉에 필요한 정보를 **Adapter**에게 요청하게 되고,   **Adapter**는 자신이 가지고 있는 데이터를 가지고 요청받은 정보를 **AdapterView**에 리턴</span>  
   
   
-<hr class="lineDot"/>
 ## Adapter의 getView() 메소드
+<hr class="line_dot"/>
 <div style="
     font-weight: 600;
     font-size: 19px;" class="border_light">
