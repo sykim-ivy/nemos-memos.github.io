@@ -15,7 +15,8 @@ tags: [Android]
   
 # Adapter
 -------------------
- : '<span class="color_pointEmeraldGreen">View</span>'와 '(그 View에 올릴) Data'를 연결하는 일종의 Bridge (<<중간객체역할)
+ : '<span class="color_pointEmeraldGreen">View</span>'와 '(그 View에 올릴) Data'를 연결하는 일종의 Bridge (<<중간객체역할)  
+ 역할
  - 데이터 받고 관리 <span class="color_blurredGray"> >> set Data</span>  
  - **AdapterView**가 출력할 수 있는 형태로 데이터를 제공 (**※ 주의 : View를 화면에 출력 하지 않음!** )  <span class="color_blurredGray"> >> Data를 View 출력 형태로 가공</span>  
 ## Adapter Structure in Android
@@ -29,9 +30,11 @@ tags: [Android]
  : <span class="color_pointEmeraldGreen">하나의 Object(객체)로서, 보여지는 View</span>들을 모두 보여주는 View  
 AdapterView는 ViewGroup을 상속받으므로, 내부적으로 많은 뷰들을 담을 수 있다.  
 ListView, GridView, Spinner 등이 AdapterView를 상속받고 있다  
+역할
  - **Adapter**가 출력할 수 있는 형태로 가공한 데이터를 받아 화면에 출력  
   
 ## AdapterView 동작원리 
+  
  - [좋은 그림 및 설명 참조](https://okky.kr/article/396324)  
 
 1) **Adapter객체 생성** 후 **AdapterView에 setAdapter()**  
