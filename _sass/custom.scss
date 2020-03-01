@@ -49,3 +49,20 @@
 .add_bold {
   font-weight : bold;
 }
+
+/**
+ Border Box 
+*/
+.border_light {
+    border: 1.1px solid #c6c7c7;
+    padding: 4px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.border_normal {
+    border: 2px solid #c6c7c7;
+    padding: 4px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
