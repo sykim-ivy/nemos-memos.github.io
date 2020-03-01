@@ -116,7 +116,6 @@ public View getView(int position, View convertView, ViewGroup parent) {
 <br/>
   
 -------------------
--------------------
 ## 참조
 * 개념 파악 & 예제 : <https://www.crocus.co.kr/1581>
 * 상위 구조 파악 : <https://m.blog.naver.com/PostView.nhn?blogId=gi_balja&logNo=221162720020&proxyReferer=https%3A%2F%2Fwww.google.com%2F>
