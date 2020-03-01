@@ -66,3 +66,4 @@ tags: [Android]
 * AndroidX란 : <https://record-king.tistory.com/9>
 
 * AAC 공식 소개 : <https://developer.android.com/topic/libraries/architecture?hl=ko>
+* AAC 요소 : <https://blog.naver.com/PostView.nhn?blogId=mym0404&logNo=221635008951>
