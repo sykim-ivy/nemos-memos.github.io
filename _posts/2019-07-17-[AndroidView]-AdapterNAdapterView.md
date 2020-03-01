@@ -111,7 +111,8 @@ public View getView(int position, View convertView, ViewGroup parent) {
 {% endhighlight %}
 
 #### getView() 최적화 #2 : 지연 로딩(Lazy Loading)
-- 항목중에 네트워크로부터 받아와야 하는 파일이 있을 경우,   getView에서 진행하게 되면 getView가 리턴되지 않아서 어댑터뷰의 화면이 그려지지 않아 화면이 멈추므로   비동기(ex) AsyncTask 등)으로 처리 -> 비동기 처리시 뷰를 바인딩하여, 작업이 완료된 후 자동적으로 뷰의 속성을 변경되도록 구현한다.
+- 항목중에 네트워크로부터 받아와야 하는 파일이 있을 경우,   getView에서 진행하게 되면 getView가 리턴되지 않아서 어댑터뷰의 화면이 그려지지 않아 화면이 멈추므로   비동기(ex) AsyncTask 등)으로 처리 -> 비동기 처리시 뷰를 바인딩하여, 작업이 완료된 후 자동적으로 뷰의 속성을 변경되도록 구현한다.  
+- [여기](https://www.codehenge.net/2011/06/android-development-tutorial-asynchronous-lazy-loading-and-caching-of-listview-images/) 좋은 예제 참고
 <br/>
 <br/>
 <br/>
@@ -122,3 +123,4 @@ public View getView(int position, View convertView, ViewGroup parent) {
 * 상위 구조 파악 : <https://m.blog.naver.com/PostView.nhn?blogId=gi_balja&logNo=221162720020&proxyReferer=https%3A%2F%2Fwww.google.com%2F>
 * AdapterView의 동작원리 : <https://okky.kr/article/396324>
 * 작동원리 : <http://dktfrmaster.blogspot.com/2016/09/adapter-view.html>
+* Lazy Loading 예제 : <https://www.codehenge.net/2011/06/android-development-tutorial-asynchronous-lazy-loading-and-caching-of-listview-images/>
