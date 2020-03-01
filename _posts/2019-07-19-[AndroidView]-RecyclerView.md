@@ -117,8 +117,5 @@ public View getView(int position, View convertView, ViewGroup parent) {
   
 -------------------
 ## 참조
-* 개념 파악 & 예제 : <https://www.crocus.co.kr/1581>
-* 상위 구조 파악 : <https://m.blog.naver.com/PostView.nhn?blogId=gi_balja&logNo=221162720020&proxyReferer=https%3A%2F%2Fwww.google.com%2F>
-* AdapterView의 동작원리 : <https://okky.kr/article/396324>
-* 작동원리 : <http://dktfrmaster.blogspot.com/2016/09/adapter-view.html>
-* Lazy Loading 예제 : <https://www.codehenge.net/2011/06/android-development-tutorial-asynchronous-lazy-loading-and-caching-of-listview-images/>
+* 공식사이트 : : <https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=ko>
+* 개념 파악 & 예제 : 
