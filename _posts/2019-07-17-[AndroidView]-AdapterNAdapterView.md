@@ -18,6 +18,7 @@ tags: [Android]
  : '<span class="color_pointEmeraldGreen">View</span>'와 '(그 View에 올릴) Data'를 연결하는 일종의 Bridge (<<중간객체역할)  
  - 데이터 받고 관리 <span class="color_blurredGray"> >> set Data</span>  
  - **AdapterView**가 출력할 수 있는 형태로 데이터를 제공 (**※ 주의 : View를 화면에 출력 하지 않음!** )  <span class="color_blurredGray"> >> Data를 View 출력 형태로 가공</span>  
+
 ## Adapter Structure in Android
  - [여기](https://m.blog.naver.com/PostView.nhn?blogId=gi_balja&logNo=221162720020&proxyReferer=https%3A%2F%2Fwww.google.com%2F&view=img_2) 엄청 그림으로 잘 그려놓으셨습니다.
 <br/>
@@ -45,6 +46,7 @@ ListView, GridView, Spinner 등이 AdapterView를 상속받고 있다
 <span class="color_pointRed">※ 요약 :  **AdapterView**는 화면 드로잉에 필요한 정보를 **Adapter**에게 요청하게 되고,   **Adapter**는 자신이 가지고 있는 데이터를 가지고 요청받은 정보를 **AdapterView**에 리턴</span>  
   
   
+<hr class="lineDot"/>
 ## Adapter의 getView() 메소드
 <div style="
     font-weight: 600;
