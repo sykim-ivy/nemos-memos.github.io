@@ -47,6 +47,7 @@ tags: [Android]
 
 * Toolbar before Navigation Drawer : <https://developer88.tistory.com/50>
 * Navigation Drawer : <https://developer88.tistory.com/131>
+* 딱 원하는 예제 : <https://duzi077.tistory.com/167>
 
 * Toolbar란 : <https://recipes4dev.tistory.com/149>
 * Toolbar vs ActionBar / 등장배경 : <https://jw910911.tistory.com/63>
