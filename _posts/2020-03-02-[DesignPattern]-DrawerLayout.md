@@ -17,11 +17,32 @@ tags: [Android]
   
   
   
+# Navigaion Drawer = DrawerLayout + NavigationView (+Toolbar)
+------------
+## NavigationView
+ : Drawer로 펼쳐지는 영역의 View (예전에는 리스트뷰로 구현하였으나 더 편리하게 NavigationView가 등장)  
+ - 아래 속성 구현 필요
+ {% highlight xml linenos %}
+ android:headerLayout="@layout/header_schedule_main"
+ app:menu="@menu/menu_schedule_main"
+ {% endhighlight %}
+
+ - [예제](https://developer88.tistory.com/131)
   
-# # DrawerLayout + Toolbar
+  
+# DrawerLayout + Toolbar
 ------------
 
+
+  
+  
+  
+  
+
+
 ## 참조
-* 뷰 개념 : <https://recipes4dev.tistory.com/139>
-* 예제 : <https://g-y-e-o-m.tistory.com/128>
+* DrawerLayout 개념 : <https://recipes4dev.tistory.com/139>
+* DrawerLayout 예제 : <https://g-y-e-o-m.tistory.com/128>
 * width,height값 잘 못 줄때 나는 에러 : <https://stackoverflow.com/questions/31746072/drawerlayout-must-be-measured-with-measurespec-exactly-error>
+
+* Navigation Drawer : <https://developer88.tistory.com/131>
