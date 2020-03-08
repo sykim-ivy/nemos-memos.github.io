@@ -5,7 +5,7 @@ category: Android
 tags: [Android]
 ---
 ------------
-  
+<br/><br/><br/><br/>
   
   
 # DrawerLayout
@@ -25,6 +25,7 @@ tags: [Android]
  : Drawer로 펼쳐지는 영역의 View (예전에는 리스트뷰로 구현하였으나 더 편리하게 NavigationView가 등장)  
  - 아래 속성 구현 필요
  {% highlight xml linenos %}
+ <com.google.android.material.navigation.NavigationView
  android:headerLayout="@layout/header_schedule_main"
  app:menu="@menu/menu_schedule_main"
  {% endhighlight %}
@@ -37,7 +38,7 @@ tags: [Android]
 - 앱바(AppBar)를 만들 때 사용
 - 안드로이드 5.0 (API Level 21)부터 추가된 위젯(Widget) 
   cf) 액티비티 내부에 기본적으로 포함된 `ActionBar`는 레이아웃 XML에 액션바 위젯을 추가하지 않아도 테마가 앱바(App Bar)를 지원하면, ActionBar를 액티비티의 앱바(App Bar)로 사용할 수 있으나, 호환성이 낮음<br/>
-- `Toolbar 사용시 필수과정`
+- **Toolbar 사용시 필수과정**
   * Toolbar 위젯에 대한 Dependency 추가. (ex) implementation 'androidx.appcompat:appcompat:1.1.0')
   * 툴바를 사용할 레이아웃 XML에 Toolbar를 추가. (ex) <androidx.appcompat.widget.Toolbar ... )
   * 툴바를 사용할 액티비티에 ".NoActionBar"가 포함된 테마를 지정하여 기본 액션바가 사용되지 않게 만듦.
