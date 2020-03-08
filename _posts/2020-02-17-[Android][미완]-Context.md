@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[미완][Android] Context"
+title: "[Android] Context"
 category: Android
 tags: [Android]
 ---
