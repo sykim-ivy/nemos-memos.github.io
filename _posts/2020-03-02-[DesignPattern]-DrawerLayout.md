@@ -12,7 +12,7 @@ tags: [Android]
 ------------
 - [DrawerLayout에 기초잡기 퍼펙트한 블로그](https://recipes4dev.tistory.com/139)
   
-## DrawerLayout 주의사항
+#### DrawerLayout 주의사항
 - 속성
 - 에러 : DrawerLayout must be measured with MeasureSpec.EXACTLY error <https://stackoverflow.com/questions/31746072/drawerlayout-must-be-measured-with-measurespec-exactly-error>
   
