@@ -49,3 +49,6 @@ AAC가 도입되면서 이를 기반으로 적용했다는 MVVM 패턴이 있고
 * 데이터 바인딩 : <https://zetawiki.com/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B0%94%EC%9D%B8%EB%94%A9>
 * AAC없이 안드로이드에 MVVM패턴 적용하기 : <https://medium.com/@jsuch2362/android-%EC%97%90%EC%84%9C-mvvm-%EC%9C%BC%EB%A1%9C-%EA%B8%B4-%EC%97%AC%EC%A0%95%EC%9D%84-82494151f312>
 * Android MVVM 을 위한 Databinding : <https://medium.com/@jsuch2362/android-mvvm-%EC%9D%84-%EC%9C%84%ED%95%9C-databinding-34cd9be44c63>
+* AAC DataBinding : <https://medium.com/@gus0000123/android-databinding-%EC%82%AC%EC%9A%A9%EB%B2%95-9a3480a3bfc7>
+* Annotation Processing with Kotlin : <https://kotlinlang.org/docs/reference/kapt.html>
+
