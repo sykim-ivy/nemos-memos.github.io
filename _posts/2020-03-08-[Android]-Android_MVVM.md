@@ -43,12 +43,21 @@ AAC가 도입되면서 이를 기반으로 적용했다는 MVVM 패턴이 있고
   
 -------------------
 ## 참조
-**패턴**<br/>
+
+**MMVM패턴**<br/>
 * MVC, MVP, MVVM 패턴 : <https://beomy.tistory.com/43>
 * Command 패턴 : <https://victorydntmd.tistory.com/295>
 * 데이터 바인딩 : <https://zetawiki.com/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B0%94%EC%9D%B8%EB%94%A9>
 * AAC없이 안드로이드에 MVVM패턴 적용하기 : <https://medium.com/@jsuch2362/android-%EC%97%90%EC%84%9C-mvvm-%EC%9C%BC%EB%A1%9C-%EA%B8%B4-%EC%97%AC%EC%A0%95%EC%9D%84-82494151f312>
 * Android MVVM 을 위한 Databinding : <https://medium.com/@jsuch2362/android-mvvm-%EC%9D%84-%EC%9C%84%ED%95%9C-databinding-34cd9be44c63>
-* AAC DataBinding : <https://medium.com/@gus0000123/android-databinding-%EC%82%AC%EC%9A%A9%EB%B2%95-9a3480a3bfc7>
-* Annotation Processing with Kotlin : <https://kotlinlang.org/docs/reference/kapt.html>
+<br/>
+**AAC DataBiding**<br/>
+* MVVM AAC Databinding 사용법(1.세팅편) : <https://medium.com/@gus0000123/android-databinding-%EC%82%AC%EC%9A%A9%EB%B2%95-9a3480a3bfc7>
+* MVVM AAC Databinding 사용법(2.활용편) : <https://medium.com/@gus0000123/android-databinding-%EC%82%AC%EC%9A%A9%EB%B2%95-9a3480a3bfc7>
+* MVVM AAC Databinding 사용법(3.상세편) : <https://medium.com/@gus0000123/android-jetpack-databinding-%EC%82%AC%EC%9A%A9%EB%B2%95-3-%EC%83%81%EC%84%B8%ED%8E%B8-afcc96ac3690>
+* AAC DataBiding 출시 배경&문법 : <https://dundun-dev.tistory.com/16>
+* 간단&간결 DataBiding 기초 설명(Activity, Fragment에 DataBinding적용) : <https://itpangpang.xyz/353>
+*
+<br/>
 
+* Annotation Processing with Kotlin : <https://kotlinlang.org/docs/reference/kapt.html>
