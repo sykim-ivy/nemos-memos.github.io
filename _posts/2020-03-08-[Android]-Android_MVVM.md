@@ -59,7 +59,8 @@ AAC가 도입되면서 이를 기반으로 적용했다는 MVVM 패턴이 있고
 * AAC DataBiding 출시 배경&문법 : <https://dundun-dev.tistory.com/16>
 * 간단&간결 DataBiding 기초 설명(Activity, Fragment에 DataBinding적용) : <https://itpangpang.xyz/353>
 **AAC ViewModel**<br/>
-* ViewModel : <https://woovictory.github.io/2019/05/02/What-is-ViewModel/>
+* ViewModel사용법 : <https://woovictory.github.io/2019/05/02/What-is-ViewModel/>
+* ViewModel사용법 + 커스텀 생성자 : <https://medium.com/@jungil.han/%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-viewmodel-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-2e4d136d28d2>
 * **Helper Class** : <https://overface.tistory.com/436>
 <br/>
 
