@@ -6,6 +6,8 @@ tags: [Android]
 ---
 -------------------
 <br/>
+Android MVVM 적용을 위해 공부중
+<br/>
 <br/>
 # ViewModel
 -------------------
