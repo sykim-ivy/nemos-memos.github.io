@@ -45,6 +45,7 @@ ViewModelProviders.of(getActivity()).get(SharedViewModel.class);
 ## 참조
 **AAC ViewModel**<br/>
 * ViewModel 등장배경&사용법&라이프사이클&Fragment 간 데이터 공유 : <https://woovictory.github.io/2019/05/02/What-is-ViewModel/>
+* 위 블로그의 다수 참조 원본 : <https://duzi077.tistory.com/196>
 * ViewModel 개념&사용법&주의점&커스텀 생성자 : <https://medium.com/@jungil.han/%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-viewmodel-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-2e4d136d28d2>
 * LiveData에서 같은 ViewModel 재사용이 가능한가? : <https://stackoverflow.com/questions/49364550/android-livedata-how-to-reuse-the-same-viewmodel-on-different-activities/49365126#49365126>
 * Helper Class란? : <https://overface.tistory.com/436>
