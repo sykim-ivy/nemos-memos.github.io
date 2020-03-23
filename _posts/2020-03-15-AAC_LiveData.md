@@ -45,8 +45,14 @@ ViewModelProviders.of(getActivity()).get(SharedViewModel.class);
 <br/>
 <br/>
 <br/>
+LifecycleOwner 인터페이스를 구현한 객체와 쌍을 이루는 옵저버를 등록할 수 있다. 이렇게 쌍을 이루어 등록함으로써, Lifecycle 객체가 DESTROYED상태로 변할 때 해당 옵저버가 삭제될 수 있도록 할 수 있다. 이러한 특성은 특히 Activity, Fragment의 생명주기가 destroy 상태가 되었을 때, 즉시 관찰을 취소하므로 LiveData 객체를 안전하게 관찰할 수 있게 하고, 메모리 릭에 대한 우려도 없어지므로 유용하게 사용될 수 있다.
+
+<br/>
+<br/>
+<br/>
 -------------------
 ## 참조
 **AAC LiveData**<br/>
 * LiveData 개념&Acitivty라이프사이클에 따른 호출 : <https://medium.com/harrythegreat/jetpack-android-livedata-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-ed49a6f17de3>
-* LiveData : <http://dktfrmaster.blogspot.com/2018/02/livedata.html>
+* LiveData 구체적 설명 & 사용법 : <http://dktfrmaster.blogspot.com/2018/02/livedata.html>
+* 보다맘 : <https://junghun0.github.io/2019/05/22/android-viewmodel/>
