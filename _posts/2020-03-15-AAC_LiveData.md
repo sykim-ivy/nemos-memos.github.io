@@ -49,3 +49,4 @@ ViewModelProviders.of(getActivity()).get(SharedViewModel.class);
 ## 참조
 **AAC LiveData**<br/>
 * LiveData 개념&Acitivty라이프사이클에 따른 호출 : <https://medium.com/harrythegreat/jetpack-android-livedata-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-ed49a6f17de3>
+* LiveData : <http://dktfrmaster.blogspot.com/2018/02/livedata.html>
