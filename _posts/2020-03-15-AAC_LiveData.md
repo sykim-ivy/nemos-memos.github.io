@@ -55,4 +55,4 @@ LifecycleOwner 인터페이스를 구현한 객체와 쌍을 이루는 옵저버
 **AAC LiveData**<br/>
 * LiveData 개념&Acitivty라이프사이클에 따른 호출 : <https://medium.com/harrythegreat/jetpack-android-livedata-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-ed49a6f17de3>
 * LiveData 구체적 설명 & 사용법 : <http://dktfrmaster.blogspot.com/2018/02/livedata.html>
-* 보다맘 : <https://junghun0.github.io/2019/05/22/android-viewmodel/>
+* 좋은 사용법 설명 및 DataBinding과 함께쓰는 예도 설명 : <https://junghun0.github.io/2019/05/22/android-viewmodel/>
