@@ -54,7 +54,7 @@ AAC가 도입되면서 이를 기반으로 적용했다는 MVVM 패턴이 있고
 <br/><br/>
 **AAC DataBiding**<br/>
 * MVVM AAC Databinding 사용법(1.세팅편) : <https://medium.com/@gus0000123/android-databinding-%EC%82%AC%EC%9A%A9%EB%B2%95-9a3480a3bfc7>
-* MVVM AAC Databinding 사용법(2.활용편) : <https://medium.com/@gus0000123/android-databinding-%EC%82%AC%EC%9A%A9%EB%B2%95-9a3480a3bfc7>
+* MVVM AAC Databinding 사용법(2.활용편) : <https://medium.com/@gus0000123/android-jetpack-databinding-%EC%82%AC%EC%9A%A9%EB%B2%95-2-%ED%99%9C%EC%9A%A9%ED%8E%B8-de0343cced26>
 * MVVM AAC Databinding 사용법(3.상세편) : <https://medium.com/@gus0000123/android-jetpack-databinding-%EC%82%AC%EC%9A%A9%EB%B2%95-3-%EC%83%81%EC%84%B8%ED%8E%B8-afcc96ac3690>
 * AAC DataBiding 출시 배경&문법 : <https://dundun-dev.tistory.com/16>
 * 간단&간결 DataBiding 기초 설명(Activity, Fragment에 DataBinding적용) : <https://itpangpang.xyz/353>
