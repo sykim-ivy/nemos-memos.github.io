@@ -132,11 +132,12 @@ html, body {
   	display: inline-block;
   }
   img {
-  	max-height: 72px;
+  	max-height: 100px;
   	margin: 0 auto;
   	display: block;
   }
   h1 {
+	margin-top: -34px,
   	font-family: 'Signika', sans-serif; //Emerald logo font
     font-weight: 600;
   }
