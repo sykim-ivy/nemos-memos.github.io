@@ -163,7 +163,14 @@ html, body {
   @media (min-width: 940px) {
       margin-bottom: 1.3334em;
     }
+  h2 {
+    background-color: #f1f1f1;
+  }
+  time  {
+	background-color: #f1f1f1;	  
+  }
 }
+
 
 .post+.post:before {
     display: block;
